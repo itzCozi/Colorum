@@ -1,5 +1,3 @@
-# Add linux compatibility; use platform lib to check if the system is linux or windows then use the appropriate command to color the terminal.
-
 # Imports
 import sys, os
 from sys import platform
@@ -27,6 +25,7 @@ class colorCodes():
 def ResetAll():
   os.system("Color " + colorCodes.black + colorCodes.white)
   return str("")
+
 def clear():
   if platform == "linux" or platform == "linux2":
     os.system("clear")
