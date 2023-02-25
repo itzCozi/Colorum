@@ -2,7 +2,7 @@
 
 Colorum is a simple terminal output colorizer for Python. Colorum supports both Python 2 and Python 3 and is available on PyPI. Once installed, you can use Colorum by importing it and then color text by calling to the color you want to use from the classes. This package can color text and the background of the console; it can also style these strings after they are printed. Colorum is a standalone file; it does not require anything to run except os and sys; the file simply floats around in your site-packages directory. Colorum is also very quick; this is because it uses system commands to re-color the terminal.
 
-**Compatibility**
+**Compatibility**  
 This package is compatible with Python 3 and windows 10 on linux the terminal does not recognize the "Color" command that the windows terminal uses to switch colors. I will add linux compatibility tomorrow and include it in 0.6 release soon after, dont forget to use the `pip install colorum --upgrade` command to upgrade your existing installation of colorum. This file version is also compatible with Windows 10 although this is how every other package does it so for now I will stick to the unique way.
 
 ### Examples
