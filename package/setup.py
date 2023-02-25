@@ -23,9 +23,7 @@ setup(
         
         keywords=['python', 'data', 'extraction', 'list'],
         classifiers= [
-            "Development Status :: 3 - Alpha",
             "Intended Audience :: Education",
-            "Programming Language :: Python :: 2",
             "Programming Language :: Python :: 3",
             "Operating System :: Microsoft :: Windows",
         ]
