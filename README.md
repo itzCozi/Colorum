@@ -33,7 +33,7 @@ To install Colorum, simply use pip (assuming Python is installed)
 pip install colorum
 ```
 
-**Colors**
+**Functions**
 ```
 text.Black()         background.Black()         style.Bright()
 text.Blue()          background.Blue()          style.Dim()
