@@ -1,24 +1,24 @@
 # Colorum
 
-Colorum is a simple terminal output colorizer for Python, Colorum supports both Python 2 and Python 3 and is available on PyPI. Once installed, you can use Colorum by importing it and then color text by calling to the color you want to use from the classes. This package can color text and the background of the console it can also style these strings after they are printed. Colorum is a standalone file it does not require anything to run except os and sys, the file simply floats around in your site-packages directory. Colorum is also very quick this is because it uses system commands to re-color the terminal.
+Colorum is a simple terminal output colorizer for Python. Colorum supports both Python 2 and Python 3 and is available on PyPI. Once installed, you can use Colorum by importing it and then color text by calling to the color you want to use from the classes. This package can color text and the background of the console; it can also style these strings after they are printed. Colorum is a standalone file; it does not require anything to run except os and sys; the file simply floats around in your site-packages directory. Colorum is also very quick; this is because it uses system commands to re-color the terminal.
 
 ### Examples
 
-Coloring the text, replace the "Red" with any color like "Blue" this works for every class.
+Coloring the console's text, replace the "Red" with any color like "Blue" this works for every class/function.
 ```python
 from colorum import text
 
 print(text.Red() + "Stay hydrated")
 ```
 
-Changing the color of console background, replace the "Red" with any color like "Blue" this works for every class.
+Changing the hue of console background is simple, replace the "Red" with any color like "Blue" this works for every class.
 ```python
 from colorum import background
 
 print(background.Red() + "Pizza is good")
 ```
 
-Styling the outputted text, this can be placed in front of any color statment.
+Styling the outputted text on the console, this can be placed in front of any colorum statment.
 ```python
 from colorum import style
 
