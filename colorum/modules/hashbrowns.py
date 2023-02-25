@@ -18,7 +18,7 @@ class errorMessages():
   fileOpen = str("ERROR: The file cannot be opened due to it being in use by another process.")   
   
 
-def keypair(print=None):
+def keypair():
   threshold = random.randint(6, 14)
   buff = random.randint(300, 10000)
   length = random.randint(50, 400)
@@ -46,12 +46,7 @@ def keypair(print=None):
   publicKey = ''.join(random.choice(x) for iterable in range(length))
   privateKey = ''.join(random.choice(y) for iterable in range(length))
 
-  if print is print:
-    print(publicKey)
-    print("")
-    print(privateKey)
-  else:
-    return publicKey, privateKey
+  return publicKey, privateKey
 
 
 def hash(target, print=None):
