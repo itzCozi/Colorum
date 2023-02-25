@@ -1,3 +1,5 @@
+# Add linux compatibility; use platform lib to check if the system is linux or windows then use the appropriate command to color the terminal.
+
 # Imports
 import sys, os
 from sys import platform

@@ -67,8 +67,7 @@ This project(Colorum) is licensed under the MIT license. The source code is avai
 [Latest Release](https://github.com/itzCozi/Data-Extraction/releases)  
 [Quickstart Guide](https://github.com/itzCozi/Data-Extraction/wiki/Quickstart-Guide)
 
-Contact Me
----------------------------------
+### Contact Me
 discord: BadDevoleper#4200                                                                                                                                             
 Email: Cooperransom08@outlook.com                                                                                                                                      
 [Replit](https://replit.com/@cozi08) | 
