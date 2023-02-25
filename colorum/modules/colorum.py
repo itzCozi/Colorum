@@ -5,16 +5,16 @@ from sys import platform
 
 # Global variables
 class colorCodes():
-  black = int(0);
-  blue = int(1);
-  green = int(2);
-  aqua = int(3);
-  red = int(4);
-  purple = int(5);
-  yellow = int(6);
-  white = int(7);
-  grey = int(8);
-  light_blue = int(9);
+  black = str(0);
+  blue = str(1);
+  green = str(2);
+  aqua = str(3);
+  red = str(4);
+  purple = str(5);
+  yellow = str(6);
+  white = str(7);
+  grey = str(8);
+  light_blue = str(9);
   light_green = str('A');
   light_aqua = str('B');
   light_red = str('C');
