@@ -29,10 +29,12 @@ print(style.Bright() + "I like coffee")
 ## Guide
 
 To install Colorum, simply use pip (assuming Python is installed)  
-`pip install colorum`
+```python
+pip install colorum
+```
 
 **Colors**
-```text
+```
 text.Black()         background.Black()         style.Bright()
 text.Blue()          background.Blue()          style.Dim()
 text.Green()         background.Green()         style.ResetAll()
