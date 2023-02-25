@@ -12,7 +12,7 @@ sys.path.append("C:/Users/" + os.getlogin() + "/scoop/apps/python/current/Lib/si
 
 # Setting up
 setup(
-        name="Data Extract", 
+        name="Colorum", 
         version=VERSION,
         author="Cooper ransom",
         author_email="Cooperransom08@outlook.com",
