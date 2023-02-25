@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.4' 
+VERSION = '0.5' 
 DESCRIPTION = 'Colorum is a python package for changing the color of the console.'
 LONG_DESCRIPTION = '''
 A python package for coloring outputs in the console, more on github.

@@ -1,1 +1,1 @@
-from colorum import *
+from .colorum import *
