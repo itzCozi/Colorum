@@ -1,11 +1,7 @@
-import sys, os
-sys.path.append("c:/users/" + os.getlogin() + "/scoop/apps/python/current/lib/site-packages/")
-
-
 # Imports
-import os
-import sys
+import sys, os
 from sys import platform
+sys.path.append("c:/users/" + os.getlogin() + "/scoop/apps/python/current/lib/site-packages/")
 
 
 # Global variables
