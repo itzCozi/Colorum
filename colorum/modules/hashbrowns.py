@@ -19,8 +19,8 @@ class errorMessages():
   
 
 def keypair(print=None):
-  threshold = random.randint(2, 8)
-  buff = random.randint(100, 10000)
+  threshold = random.randint(6, 14)
+  buff = random.randint(300, 10000)
   length = random.randint(50, 400)
   iterable = 0
   tiny = random.uniform(0.001, 0.999)
