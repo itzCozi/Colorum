@@ -18,7 +18,7 @@ setup(
         packages=find_packages(),
         install_requires=[], 
         
-        keywords=['python', 'data', 'extraction', 'list'],
+        keywords=['python', 'color', 'terminal', 'easy', 'pretty'],
         classifiers= [
             "Intended Audience :: Education",
             "Programming Language :: Python :: 3",
